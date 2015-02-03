@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F051R8 -DSTM32F0XX_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\STM32F0-DS1307\cmsis_core -I..\..\..\workspace\STM32F0-DS1307\stm32_lib\inc -I..\..\..\workspace -I..\..\..\workspace\STM32F0-DS1307\stm32_lib -I..\..\..\workspace\STM32F0-DS1307 -I..\..\..\workspace\STM32F0-DS1307\cmsis_boot">
+      <target file="stm32f0xx_i2c.o" lastModified="14b5180167f">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_i2c.c" lastModified="14b5143f0d6"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="14b51801afc">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="14b5143abbc"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="14b5180104b">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="14b5143abd2"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="14b518018af">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="14b5143abe1"/>
+      </target>
+      <target file="main.o" lastModified="14b51993cda">
+         <source file="..\..\..\main.c" lastModified="14b5199344d"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="14b51801398">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="14b5143abd8"/>
+      </target>
+   </processor>
+</history>

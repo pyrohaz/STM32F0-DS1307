@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.4.1 -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=STM32F0-DS1307.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-DS1307 -TC:\CooCox\CoIDE\configuration\ProgramData\STM32F0-DS1307/arm-gcc-link.ld -g">
+      <target file="STM32F0-DS1307.elf" lastModified="14b5199424e">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="14b5180104b"/>
+         <source file="..\obj\main.o" lastModified="14b51993cda"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="14b51801398"/>
+         <source file="..\obj\stm32f0xx_i2c.o" lastModified="14b5180167f"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="14b518018af"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="14b51801afc"/>
+      </target>
+   </processor>
+</history>
